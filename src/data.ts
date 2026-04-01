@@ -8,7 +8,7 @@ export const resumeData: ResumeData = {
     "phone": "437-262-2024",
     "location": "Toronto, ON",
     "website": "https://vanshikasanjay2002.wixsite.com/my-site",
-    "linkedin": "https://linkedin.com",
+    "linkedin": "https://www.linkedin.com/in/vanshika-com/",
     "summary": "Results-driven marketing professional with 2+ years of experience in B2B lead generation, paid media, and sales enablement. Proven track record of driving pipeline growth, optimizing ad performance, and increasing revenue through data-driven strategies across Google and X (Twitter) platforms."
   },
   experience: [
