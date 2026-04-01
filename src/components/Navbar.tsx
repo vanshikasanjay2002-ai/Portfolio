@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Download, Linkedin, Mail } from 'lucide-react';
+import { Menu, X, Linkedin, Mail } from 'lucide-react';
 import { resumeData } from '../data';
 
 const Navbar: React.FC = () => {
@@ -92,13 +92,6 @@ const Navbar: React.FC = () => {
           >
             <Linkedin size={20} />
           </a>
-          <button
-            onClick={() => window.print()}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-lg shadow-blue-500/20 flex items-center gap-2"
-          >
-            <Download size={16} />
-            Resume
-          </button>
         </div>
 
         {/* Mobile Toggle */}
@@ -148,13 +141,6 @@ const Navbar: React.FC = () => {
                 >
                   <Linkedin size={24} />
                 </a>
-                <button
-                  onClick={() => window.print()}
-                  className="flex-1 bg-blue-500 text-white py-3 rounded-xl font-bold flex items-center justify-center gap-2"
-                >
-                  <Download size={20} />
-                  Download Resume
-                </button>
               </div>
             </div>
           </motion.div>

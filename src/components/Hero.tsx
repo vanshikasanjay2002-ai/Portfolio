@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { resumeData } from '../data';
 
 const Hero: React.FC = () => {
@@ -88,13 +88,6 @@ const Hero: React.FC = () => {
           >
             View Experience
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button
-            onClick={() => window.print()}
-            className="w-full sm:w-auto px-8 py-4 bg-white/50 dark:bg-slate-900/50 backdrop-blur-md border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white rounded-2xl font-bold text-lg hover:bg-white dark:hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
-          >
-            <Download size={20} />
-            Download Resume
           </button>
         </motion.div>
       </motion.div>
